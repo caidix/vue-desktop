@@ -6,6 +6,6 @@ const baseApi = config.get('baseApi')
 const modelApi = 'common'
 router.prefix(`/${baseApi}/${modelApi}`)
 
-router.get('/', UserController.test)
+router.get('/', UserController.text)
 
 module.exports = router
